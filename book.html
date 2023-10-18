@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/bootstrap-4.6.2-dist/css/bootstrap.min.css">
+    <title>web</title>
+</head>
+<style>
+    .container-fluid {
+        color: white;
+    }
+
+    #r1 {
+        background-image: url(images/hero-bg.jpg);
+        height: 70px;
+    }
+
+    #n1>li {
+        padding-left: 30px;
+    }
+
+    #n1>li>a {
+        color: white;
+    }
+
+    #i1 {
+        position: relative;
+        left: 630px;
+        top: -42px;
+    }
+
+    .col-3,
+    .col-6 {
+        margin-top: 20px;
+    }
+    #ip>input{
+        width: 500px;
+        height: 40px;
+    }
+    #c3 {
+        position: relative;
+        left: 35px;
+    }
+</style>
+
+<body>
+    <div class="container-fluid" style="color: white;">
+        <div class="row" id="r1">
+            <div class="col-3" id="c3" style=" font-size: 25px;">
+                <a>Feane</a>
+            </div>
+            <div class="col-6">
+                <ul class="nav" id="n1">
+                    <li class="nav-item"><a class="nav-link" href="home.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">MENU</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="book.html">BOOK TABLE</a></li>
+                </ul>
+                <img id="i1" src="images/congcu.png" alt="" height="35px">
+            </div>
+            <div class="col-3">
+                <a class="btn btn-primary" style="border-radius: 30px; width: 150px; background-color: orange;"
+                    href="order.html">Order Online</a>
+            </div>
+        </div>
+        <div class="row" style="color:black ;margin-top: 100px">
+            <div class="col-6" style="text-align: right;">
+                <h2 style="text-align: center; margin-left: -70px;">Book A Table</h2><br>
+                <div id="ip">
+                    <input type="text" placeholder="Your Name"> <br>
+                    <br><input type="text" placeholder="Phone Number"> <br>
+                    <br><input type="text" placeholder="Your Email"> <br>
+                    <br><input type="text" placeholder="How many persons?"> <br>
+                    <br><input type="date" name="" id="ngaythang"> <br>
+                </div>
+                <div style="text-align: center;margin-left: -120px;">
+                    <br><a class="btn btn-primary" style="border-radius: 30px; width: 150px; background-color: orange;"
+                    href="">BOOK NOW</a>
+                </div>
+            </div>
+            <div class="col-6">
+                <img style="margin-top: 40px;" src="images/map.png" alt="" height="350px">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
